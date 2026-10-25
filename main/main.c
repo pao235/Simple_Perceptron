@@ -139,7 +139,7 @@ void run_config_and_train(void) {
         }
         Print_Error_Dimensiones(dim);   // Valor fuera de rango: pedir de nuevo
     }
- 
+    
     // Solicitar y validar el tipo de función lógica de salida
     int sel = 0;
     Print_Pedir_Salida();

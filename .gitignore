@@ -1,9 +1,11 @@
 # Build directories
 /build/
 /[Bb]uild/
+sdkconfig
 sdkconfig.old
 
-# IDE specific files
+# IDE specific files (Eclipse / ESP-IDF / VS Code)
+.settings/
 .vscode/
 .idea/
 .project
